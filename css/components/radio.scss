@@ -21,8 +21,6 @@
     &:checked ~ .radio__visible {
         &::before {
             display: block;
-
-            
         }
 
     }

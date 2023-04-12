@@ -6,6 +6,9 @@ $basefontsize: 18px;
 $white: #F5F5F5;
 
 
+//z-index
+$z-fixed-menu: 100;
+
 
 // normalize
 @import "./normalize.css"; 
@@ -29,6 +32,7 @@ $white: #F5F5F5;
 @import "./components/form.scss";
 @import "./components/order-section.scss";
 @import "./components/radio.scss";
+@import "./components/fixed-menu.scss";
 
 
 
