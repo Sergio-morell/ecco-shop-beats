@@ -1,20 +1,16 @@
-$containerWidth: 940px;
-$basefontsize: 18px;
-
-
 // colors
 $white: #F5F5F5;
 
+@import "./media.css";
 
 //z-index
-$z-fixed-menu: 100;
-
+// $z-fixed-menu: 100;
 
 // normalize
 @import "./normalize.css"; 
 
 // setups
-@import "layout";
+@import "./layout.css";
 
 //components
 @import "./components/hero";
@@ -33,6 +29,11 @@ $z-fixed-menu: 100;
 @import "./components/order-section.scss";
 @import "./components/radio.scss";
 @import "./components/fixed-menu.scss";
+
+
+
+$containerWidth: 940px;
+$basefontsize: 18px;
 
 
 
