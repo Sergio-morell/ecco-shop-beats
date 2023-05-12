@@ -1,16 +1,22 @@
+$containerWidth: 940px;
+$basefontsize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 // colors
 $white: #F5F5F5;
 
-@import "./media.css";
+@import "media";
 
 //z-index
-// $z-fixed-menu: 100;
+$z-fixed-menu: 100;
 
-// normalize
-@import "./normalize.css"; 
 
 // setups
-@import "./layout.css";
+@import "layout";
+
 
 //components
 @import "./components/hero";
@@ -24,16 +30,17 @@ $white: #F5F5F5;
 @import "./components/benefit";
 @import "./components/benefits-section";
 @import "./components/reviews";
-@import "./components/interactive-avatar.scss";
-@import "./components/form.scss";
-@import "./components/order-section.scss";
-@import "./components/radio.scss";
-@import "./components/fixed-menu.scss";
+@import "./components/interactive-avatar";
+@import "./components/form";
+@import "./components/order-section";
+@import "./components/radio";
+@import "./components/fixed-menu";
+@import "./components/menu";
+@import "./components/hamburger";
 
 
 
-$containerWidth: 940px;
-$basefontsize: 18px;
+
 
 
 

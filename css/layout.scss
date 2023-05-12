@@ -1,10 +1,21 @@
+html {
+    font-size: $basefontsize;
+
+    @include tablets {
+        font-size: $basefontsize - 1px;
+    }
+
+    @include phones {
+        font-size: $basefontsize - 2px;
+    }
+}
+
 html,
 body {
     height: 100%;
 }
 
 body {
-    font-size: $basefontsize;
     font-family: "Alegreya Sans",Arial, Helvetica, sans-serif;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
